@@ -52,7 +52,7 @@ returning new Element with value after the operation
 (InfixConverter takes ``std::shared_ptr<IEquationParser>`` as it converts equations to string, so returning std::queue  
 requires another parser run to tokenize it again) 
 
-### [InfixNotation](Linux/ONPCalculator/include/Infix.hpp) and [PostfixNotation](Linux/ONPCalculator/include/Postfix.hpp)
+### [InfixNotation](Linux/ONPCalculator/include/InfixNotation.hpp) and [PostfixNotation](Linux/ONPCalculator/include/PostfixNotation.hpp)
 - ``calculate()`` returns evaluated value of the equation as double
 - contains NotationEnum of what notation it evaluates
 
